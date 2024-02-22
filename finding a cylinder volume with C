@@ -1,0 +1,15 @@
+#include<stdio.h
+#define PI 3.14
+void main()
+{
+float r,h, volume;
+
+printf("enter the radius:");
+scanf("%f",&r);
+
+printf("enter the height");
+scanf("%f",&h);
+
+volume = PI * r * r * h;
+printf("volume = %f\n",volume);
+}
